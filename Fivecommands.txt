@@ -1,1 +1,37 @@
-I first typed ¡§ls¡¨ and the terminal of my MacBook showed the contents of a directories on my device. Secondly, I typed ¡§cd Documents¡¨ to change the working directory. After that, I was directed to the Documents folder of my device.Thirdly, I typed ¡§ls -a¡¨ to see what files the Documents folder has. What harassed me most is the command ¡§git add¡¨. I tried many times but my terminal kept showing, ¡§Fatal: pathspec 'file.txt' did not match any files.¡¨ I finally fixed this problem by typing ¡§git commit -m <file name>¡¨. After committing my file, I was able to do the command of ¡§git add¡¨ and the terminal successfully showed the following words:(base) Hinde-MacBook-Air:Test hinmingfrankiechik$ git commit -m "first commit"[master (root-commit) 6f62bf2] first commit Committer: Hin Ming Frankie Chik <hinmingfrankiechik@Hinde-MacBook-Air.local>Your name and email address were configured automatically basedon your username and hostname. Please check that they are accurate.You can suppress this message by setting them explicitly. Run thefollowing command and follow the instructions in your editor to edityour configuration file:    git config --global --editAfter doing this, you may fix the identity used for this commit with:    git commit --amend --reset-author 1 file changed, 1 insertion(+) create mode 100644 Secondary.txt(base) Hinde-MacBook-Air:Test hinmingfrankiechik$ git remote add origin https://github.com/FrankieChik/CDH-598-Spring-2020.gitAnd then, I tried to link the github repository. After typing git remote add origin https://github.com/FrankieChik/CDH-598-Spring-2020.git, the system requested me to enter the username and password of my github account. After entering my information, it showed:Enumerating objects: 3, done.Counting objects: 100% (3/3), done.Writing objects: 100% (3/3), 245 bytes | 122.00 KiB/s, done.Total 3 (delta 0), reused 0 (delta 0)To https://github.com/FrankieChik/CDH-598-Spring-2020.git * [new branch]      master -> masterBranch 'master' set up to track remote branch 'master' from 'origin'.At the end, I typed ¡§git pull¡¨ and the system said it is ¡§Already up to date.¡¨
+Hin Ming Frankie
+20 Jan, 2020.
+7:58pm
+I first typed Â¡Â§lsÂ¡Â¨ and the terminal of my MacBook showed the contents of a directories on my device. 
+Secondly, I typed Â¡Â§cd DocumentsÂ¡Â¨ to change the working directory. After that, I was directed to the Documents folder of my device.
+Thirdly, I typed Â¡Â§ls -aÂ¡Â¨ to see what files the Documents folder has. 
+What harassed me most is the command Â¡Â§git addÂ¡Â¨. I tried many times but my terminal kept showing, Â¡Â§Fatal: pathspec 'file.txt' did not match any files.Â¡Â¨ I finally fixed this problem by typing Â¡Â§git commit -m <file name>Â¡Â¨. After committing my file, I was able to do the command of Â¡Â§git addÂ¡Â¨ and the terminal successfully showed the following words:
+(base) Hinde-MacBook-Air:Test hinmingfrankiechik$ git commit -m "first commit"
+[master (root-commit) 6f62bf2] first commit
+ Committer: Hin Ming Frankie Chik <hinmingfrankiechik@Hinde-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Secondary.txt
+(base) Hinde-MacBook-Air:Test hinmingfrankiechik$ git remote add origin https://github.com/FrankieChik/CDH-598-Spring-2020.git
+
+And then, I tried to link the github repository. After typing git remote add origin https://github.com/FrankieChik/CDH-598-Spring-2020.git, the system requested me to enter the username and password of my github account. After entering my information, it showed:
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 245 bytes | 122.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/FrankieChik/CDH-598-Spring-2020.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+At the end, I typed Â¡Â§git pullÂ¡Â¨ and the system said it is Â¡Â§Already up to date.Â¡Â¨
+
