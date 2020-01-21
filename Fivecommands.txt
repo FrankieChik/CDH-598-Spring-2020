@@ -35,3 +35,5 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 At the end, I typed ¡§git pull¡¨ and the system said it is ¡§Already up to date.¡¨
 
+“A little "thank you" that you will say to someone for a "little favour" shown to you is a key to unlock the doors that hide unseen "greater favours". Learn to say "thank you" and why not?” 
+― Israelmore Ayivor
